@@ -1,8 +1,2 @@
 #!/bin/bash
-filename='\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)'
-text='Best School'
-
-echo "$text" > "$filename"
-
-ls -l
-cat -e "$filename"
+echo "Best School" > "\*\\\'\"Best School\"\'\\\*$\?\*\*\*\*\*:)"
